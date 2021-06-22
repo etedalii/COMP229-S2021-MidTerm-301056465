@@ -1,3 +1,7 @@
+// File name: app.js
+//   Editor's name: Mohammad Etedali - 301056465
+//   Date: 6/22/21
+//   Description: This file for configuration the app
 // installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');
