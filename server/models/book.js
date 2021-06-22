@@ -1,3 +1,10 @@
+/**
+ * book.js
+ * Editor's name: Mohammad Etedali 301056465
+ * Date edit: 06/22/2021
+ * This file is shows the book entity 
+ */
+
 let mongoose = require('mongoose');
 
 // Create Model Class
@@ -5,7 +12,7 @@ let bookModel = mongoose.Schema({
     name: String,
     author: String,
     published: String,
-    Description: String,
+    description: String,
     price: Number
 },
 {

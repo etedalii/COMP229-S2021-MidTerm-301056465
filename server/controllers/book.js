@@ -1,3 +1,10 @@
+/**
+ * book.js
+ * Editor's name: Mohammad Etedali 301056465
+ * Date edit: 06/22/2021
+ * This file is use for CRUD operation for book entity
+ */
+
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -45,7 +52,6 @@ module.exports.processAddPage = (req, res, next) => {
 }
 
 // The Code I added is below
-
 module.exports.displayEditPage = (req, res, next) => {
   let id = req.params.id;
 
@@ -67,7 +73,7 @@ module.exports.processEditBook = (req, res, next) => {
     name: req.body.name,
     author: req.body.author,
     published: req.body.published,
-    Description: req.body.Description,
+    description: req.body.description,
     price: req.body.price,
   });
 
