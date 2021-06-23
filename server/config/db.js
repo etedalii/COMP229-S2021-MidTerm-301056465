@@ -6,5 +6,5 @@
  * This file is use for connection URI to Database
  */
  module.exports = {
-    "URI" :"mongodb://localhost/book_store"
+    "URI" : "mongodb+srv://etedali:ctABSHt8e5RQDpeA@mongodbserver.bbosx.mongodb.net/booklist_db?retryWrites=true&w=majority"
 }

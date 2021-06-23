@@ -52,6 +52,7 @@ module.exports.processAddPage = (req, res, next) => {
 }
 
 // The Code I added is below
+//This module is responsible for Display edit, open the edit page
 module.exports.displayEditPage = (req, res, next) => {
   let id = req.params.id;
 
@@ -65,6 +66,7 @@ module.exports.displayEditPage = (req, res, next) => {
   });
 };
 
+//This module is responsible for process edit, when call edit with post
 module.exports.processEditBook = (req, res, next) => {
   let id = req.params.id;
 
@@ -88,6 +90,7 @@ module.exports.processEditBook = (req, res, next) => {
   });
 };
 
+//this module is responsible for delete a book from Db
 module.exports.performDelete = (req, res, next) => {
   let id = req.params.id;
   Book.remove({ _id: id }, (err) => {

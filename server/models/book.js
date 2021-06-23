@@ -2,7 +2,7 @@
  * book.js
  * Editor's name: Mohammad Etedali 301056465
  * Date edit: 06/22/2021
- * This file is shows the book entity 
+ * This file, create the book entity 
  */
 
 let mongoose = require('mongoose');
